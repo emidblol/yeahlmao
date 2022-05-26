@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <nav className='nav'><button className='navbutton' href='/'>Home</button><button className='navbutton' href='test.html'><a href="/test.html"> About me</a></button></nav>
+        <nav className='nav'><button className='navbutton' href='/'>Home</button><button className='navbutton' href='test.html'><a href="/test"> About me</a></button></nav>
         <br /><br /><br />
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Hello world!</h1>

@@ -52,7 +52,7 @@ function App() {
       <br />
       <br />
       <br />
-      <a href="/home.html">Back to home</a>
+      <a href="/home">Back to home</a>
     </div>
   )
 }

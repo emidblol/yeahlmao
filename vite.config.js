@@ -6,5 +6,14 @@ const outDir = resolve(__dirname, 'dist')
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build : {
+    outDir,
+    emptyOutDir: true,
+    rollupOptions: {
+      main: resolve(root, 'index.html'),
+      aboutme: resolve(root, 'test.html'),
+      home: resolve(root, 'home.html')
+    }
+  }
 })
 
