@@ -7,8 +7,6 @@ const outDir = resolve(__dirname, 'dist')
 export default defineConfig({
   plugins: [react()],
   build : {
-    outDir,
-    emptyOutDir: true,
     rollupOptions: {
       main: resolve(root, 'index.html'),
       aboutme: resolve(root, 'test.html'),
